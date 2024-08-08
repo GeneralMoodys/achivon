@@ -90,7 +90,22 @@ Make sure you have the following installed:
     php artisan migrate
     ```
 
-5. **Start the server**
+5. **Change .env**
+
+    Update your .env database :
+
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+
+    The application will be running at `http://localhost:8000`.
+
+6. **Start the server**
 
     You can start a local development server with the following command:
 
