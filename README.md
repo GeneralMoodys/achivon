@@ -112,8 +112,14 @@ Make sure you have the following installed:
     ```bash
     php artisan serve
     ```
+    and
+
+    ```bash
+    npm run dev
+    ```
 
     The application will be running at `http://localhost:8000/login`.
+   
 
 ## Usage
 
