@@ -113,7 +113,7 @@ Make sure you have the following installed:
     php artisan serve
     ```
 
-    The application will be running at `http://localhost:8000`.
+    The application will be running at `http://localhost:8000/login`.
 
 ## Usage
 
